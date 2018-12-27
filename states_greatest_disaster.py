@@ -48,7 +48,7 @@ if __name__ == "__main__":
     for state in statesCollected:
         print state ,'\n'
     print "NUMBER OF STATESL", number
-    states.saveAsTextFile("hdfs://namenode:8020/weather/results/disaster_by_state")
+    states.coalesce(1,True).saveAsTextFile("hdfs://namenode:8020/weather/results/disaster_by_state")
 
 #   Pokusaj odredjivanja drzave koja je pretrpela najvise nepogoda
     unifiedDisasteByState = []
@@ -68,7 +68,7 @@ if __name__ == "__main__":
 
     sparkSession = SparkSession.builder.appName("weather_app").getOrCreate()
     df = sparkSession.createDataFrame(unifiedDisasteByState)
-    df.write.mode('overwrite').csv("hdfs://namenode:8020/weather/results/unified_disaster_by_state")
+    df.repartition(1).write.mode('overwrite').csv("hdfs://namenode:8020/weather/results/unified_disaster_by_state")
 
     df = sparkSession.createDataFrame([maxState])
     df.write.mode('overwrite').csv("hdfs://namenode:8020/weather/results/max_unified_disaster_by_state")
