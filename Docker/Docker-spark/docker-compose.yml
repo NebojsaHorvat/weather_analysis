@@ -42,7 +42,7 @@ services:
       - 7077:7077
     env_file:
       - ./hadoop.env
-  spark-worker:
+  spark-worker1:
     image: bde2020/spark-worker:2.1.0-hadoop2.8-hive-java8
     depends_on:
       - spark-master
@@ -50,6 +50,26 @@ services:
       - SPARK_MASTER=spark://spark-master:7077
     ports:
       - 8081:8081
+    env_file:
+      - ./hadoop.env
+  spark-worker2:
+    image: bde2020/spark-worker:2.1.0-hadoop2.8-hive-java8
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+    ports:
+      - 8082:8081
+    env_file:
+      - ./hadoop.env
+  spark-worker3:
+    image: bde2020/spark-worker:2.1.0-hadoop2.8-hive-java8
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+    ports:
+      - 8083:8081
     env_file:
       - ./hadoop.env
   spark-notebook:

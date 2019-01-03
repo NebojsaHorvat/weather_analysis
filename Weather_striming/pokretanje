@@ -1,0 +1,28 @@
+SPARK MASTER WITH KAFKA (STREAMING):
+
+Provo se prekopiraju fajlovi na spark-master:
+docker cp ./add-jar.sh spark-master-k:/spark
+docker cp ./too_much_storms.py spark-master-k:/spark
+
+Onda se poveze na spark-master:
+docker exec -it spark-master-k /bin/bash
+cd spark
+
+prvo se pokrene skripta add-jar.sh
+
+$SPARK_HOME/bin/spark-submit --jars spark-streaming-kafka-0-8-assembly_2.11-2.4.0.jar ./too_much_storms.py
+
+
+KAFKA KONTEJNER :
+cd /usr/bin
+ispisivanje topika na kafki:
+kafka-topics.sh --zookeeper docker-spark-kafka_zookeeper_1:2181 --list
+
+slusanj topika na kafki:
+kafka-console-consumer.sh --bootstrap-server docker-spark-kafka_zookeeper_1:2181 --topic weather_stream
+
+slusanj topika na kafki RADI:
+kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic weather_stream
+
+pisi na kafka topik:
+kafka-console-producer.sh --broker-list kafka:9092 --topic weather_stream
