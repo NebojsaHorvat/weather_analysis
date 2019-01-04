@@ -1,0 +1,79 @@
+version: "3"
+
+services:
+  namenode:
+    image: bde2020/hadoop-namenode:1.1.0-hadoop2.8-java8
+    volumes:
+      - ./data/namenode:/hadoop/dfs/name
+    environment:
+      - CLUSTER_NAME=weather_claster
+    env_file:
+      - ./hadoop.env
+    ports:
+      - 50070:50070
+  datanode:
+    image: bde2020/hadoop-datanode:1.1.0-hadoop2.8-java8
+    depends_on: 
+      - namenode
+    volumes:
+      - ./data/datanode:/hadoop/dfs/data
+    env_file:
+      - ./hadoop.env
+  datanode1:
+    image: bde2020/hadoop-datanode:1.1.0-hadoop2.8-java8
+    depends_on: 
+      - namenode
+    volumes:
+      - ./data/datanode1:/hadoop/dfs/data
+    env_file:
+      - ./hadoop.env
+  datanode2:
+    image: bde2020/hadoop-datanode:1.1.0-hadoop2.8-java8
+    depends_on: 
+      - namenode
+    volumes:
+      - ./data/datanode2:/hadoop/dfs/data
+    env_file:
+      - ./hadoop.env
+  resourcemanager:
+    image: bde2020/hadoop-resourcemanager:1.1.0-hadoop2.7.1-java8
+    ports:
+      - "58088:8088"
+    depends_on:
+      - namenode
+      - datanode
+      - datanode1
+      - datanode2
+    env_file:
+      - ./hadoop.env
+  
+  historyserver:
+    image: bde2020/hadoop-historyserver:1.1.0-hadoop2.7.1-java8
+    depends_on:
+      - namenode
+      - datanode
+      - datanode1
+      - datanode2
+    volumes:
+      - hadoop_historyserver:/hadoop/yarn/timeline
+    env_file:
+      - ./hadoop.env
+  
+  nodemanager1:
+    image: bde2020/hadoop-nodemanager:1.1.0-hadoop2.7.1-java8
+    depends_on:
+      - namenode
+      - datanode
+      - datanode1
+      - datanode2
+    env_file:
+      - ./hadoop.env
+  hue:
+    image: bde2020/hdfs-filebrowser:3.11
+    ports:
+      - 8088:8088
+    environment:
+      - NAMENODE_HOST=namenode
+
+volumes:
+  hadoop_historyserver:

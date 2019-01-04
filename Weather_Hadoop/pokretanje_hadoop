@@ -1,0 +1,12 @@
+OVO UPUTSTVO PODRAZUMEVA DA SE PODACI VEC NALAZE NA HDFS-u U FOLDERU /weather !!
+
+-prvo se pokrene docker-compose u Weather/Docker/Docker-Hadoop
+-onda se pozicionira u Weather/Weather_Hadoop
+-pokrene se ./copy-files.sh
+-povezemo se na kontejner u koji smo kopirali fajlove:
+	docker exec -it docker-hadoop_namenode_1 /bin/bash
+- posle povezivanja pokrece se : 
+	chmod +x compile-and-run-mr.sh
+	./compile-and-run-mr.sh 
+- ako zelimo opet da se pokrene izvrsavanje potrebno izvrsiti	
+	./clean-up.sh
