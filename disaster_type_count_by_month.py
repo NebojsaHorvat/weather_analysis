@@ -22,9 +22,9 @@ if __name__ == "__main__":
     df.createOrReplaceTempView("weather_data")
 
 
-    query = """ SELECT MONTH_NAME, STATE,EVENT_TYPE, count(EVENT_ID)
+    query = """ SELECT MONTH_NAME,EVENT_TYPE, count(EVENT_ID)
     FROM weather_data 
-    GROUP BY MONTH_NAME, STATE,EVENT_TYPE
+    GROUP BY MONTH_NAME,EVENT_TYPE
     HAVING COUNT(EVENT_ID) > 3
     ORDER BY MONTH_NAME ASC"""
     df_upit = spark.sql(query) 

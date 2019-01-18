@@ -1,0 +1,41 @@
+DISASTER_TYPE,INJURIES,DEATHS,MATERIAL_DAMAGE
+Astronomical Low Tide,0,0,0
+Avalanche,20,18,145500
+Blizzard,357,50,398062950
+Coastal Flood,8,6,153109000
+Cold/Wind Chill,64,108,18751400
+Debris Flow,3,6,725100
+Dense Fog,297,18,5158500
+Drought,0,0,199400000
+Dust Devil,3,1,42600
+Dust Storm,84,0,570000
+EVENT_TYPE,0,0,0
+Flash Flood,5082,298,2766366800.1
+Flood,1974,86,2954837155.34
+Freezing Fog,0,1,0
+Frost/Freeze,3,1,9015000
+Funnel Cloud,1,0,52000
+Hail,132,2,1840154560.32
+Heat,1292,291,20500
+Heavy Rain,60,49,102494400
+Heavy Snow,331,64,296932810
+High Surf,21,19,465000
+High Wind,277,77,213828920
+Hurricane (Typhoon),32,22,4095133001.08
+Ice Storm,195,42,697845990
+Lake-Effect Snow,0,0,50000
+Lightning,905,139,112617850
+Marine High Wind,2,1,50000
+Rip Current,89,57,0
+Seiche,0,0,20000
+Sleet,0,0,0
+Storm Surge/Tide,27,0,18233000
+Strong Wind,52,16,2553390
+Thunderstorm Wind,1563,99,1919723900.1
+Tornado,3612,224,2766408700.4
+Tropical Storm,71,6,423990000
+Volcanic Ash,0,0,0
+Waterspout,1,0,142000
+Wildfire,132,1,505477000
+Winter Storm,608,70,121937600
+Winter Weather,332,35,2612200

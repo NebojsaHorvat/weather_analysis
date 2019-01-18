@@ -18,9 +18,6 @@ cd /usr/bin
 ispisivanje topika na kafki:
 kafka-topics.sh --zookeeper docker-spark-kafka_zookeeper_1:2181 --list
 
-slusanj topika na kafki:
-kafka-console-consumer.sh --bootstrap-server docker-spark-kafka_zookeeper_1:2181 --topic weather_stream
-
 slusanj topika na kafki RADI:
 kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic weather_stream
 

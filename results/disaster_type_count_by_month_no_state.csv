@@ -1,0 +1,816 @@
+MONTH_NAME,EVENT_TYPE,count(EVENT_ID)
+April,Heavy Rain,486
+April,Marine Strong Wind,14
+April,Avalanche,17
+April,Waterspout,63
+April,Strong Wind,888
+April,High Wind,2441
+April,Winter Storm,1880
+April,Landslide,37
+April,Wildfire,306
+April,Astronomical Low Tide,4
+April,Flash Flood,1687
+April,Funnel Cloud,305
+April,Hail,13531
+April,High Surf,249
+April,Tornado,2182
+April,Dense Fog,94
+April,Dust Storm,48
+April,Coastal Flood,156
+April,Thunderstorm Wind,8418
+April,Winter Weather,767
+April,Blizzard,272
+April,Marine Hail,25
+April,Ice Storm,32
+April,Heavy Snow,819
+April,Lake-Effect Snow,21
+April,Heat,13
+April,Lightning,278
+April,Frost/Freeze,2986
+April,Marine Thunderstorm Wind,723
+April,Drought,1773
+April,Extreme Cold/Wind Chill,20
+April,Cold/Wind Chill,182
+April,Rip Current,33
+April,Marine High Wind,22
+April,Flood,2027
+April,Dust Devil,18
+April,Lakeshore Flood,16
+April,Marine Thunderstorm Wind,577
+April,Flash Flood,2068
+April,Lightning,513
+April,High Surf,189
+April,Extreme Cold/Wind Chill,152
+April,Coastal Flood,21
+April,Volcanic Ash,5
+April,WINTER WEATHER,243
+April,Tornado,1913
+April,Winter Weather,222
+April,Avalanche,21
+April,Thunderstorm Wind,9723
+April,High Wind,4439
+April,Excessive Heat,51
+April,Flood,2402
+April,Ice Storm,200
+April,Heat,142
+April,Hail,21699
+April,Waterspout,112
+April,Wildfire,196
+April,Strong Wind,661
+April,Winter Storm,1487
+April,Dust Devil,25
+April,Blizzard,401
+April,Marine Hail,18
+April,Funnel Cloud,353
+April,Frost/Freeze,308
+April,Dense Fog,73
+April,Debris Flow,41
+April,Heavy Snow,1838
+April,Drought,1213
+April,Cold/Wind Chill,216
+April,Storm Surge/Tide,47
+April,Dust Storm,24
+April,Rip Current,39
+April,Heavy Rain,381
+August,Marine High Wind,18
+August,Hurricane,13
+August,Tornado,478
+August,Marine Strong Wind,5
+August,Thunderstorm Wind,15971
+August,Storm Surge/Tide,103
+August,Tropical Storm,660
+August,Hail,8907
+August,Waterspout,253
+August,Heat,1595
+August,Dust Storm,34
+August,High Surf,115
+August,Excessive Heat,1709
+August,Wildfire,404
+August,Marine Thunderstorm Wind,1267
+August,Flash Flood,3841
+August,Landslide,32
+August,Lightning,935
+August,Tropical Depression,163
+August,Dense Fog,203
+August,Frost/Freeze,10
+August,Hurricane (Typhoon),44
+August,Drought,2911
+August,Debris Flow,18
+August,Heavy Rain,1105
+August,Marine Hail,45
+August,Dust Devil,11
+August,Funnel Cloud,298
+August,Strong Wind,113
+August,Coastal Flood,17
+August,Dense Smoke,5
+August,High Wind,119
+August,Flood,1193
+August,Rip Current,77
+August,Wildfire,472
+August,Debris Flow,28
+August,Strong Wind,120
+August,Marine Hail,33
+August,Tropical Storm,279
+August,Extreme Cold/Wind Chill,14
+August,Frost/Freeze,18
+August,Dust Devil,9
+August,Tornado,974
+August,Heat,2716
+August,Flash Flood,4278
+August,Flood,968
+August,Funnel Cloud,434
+August,Cold/Wind Chill,76
+August,Rip Current,64
+August,Marine Thunderstorm Wind,827
+August,Dust Storm,47
+August,Storm Surge/Tide,37
+August,High Wind,339
+August,Hail,12022
+August,Hurricane (Typhoon),368
+August,Heavy Rain,837
+August,Dense Fog,132
+August,Coastal Flood,16
+August,Thunderstorm Wind,18080
+August,High Surf,128
+August,Lightning,2002
+August,Waterspout,464
+August,Drought,2857
+December,High Surf,291
+December,Flood,795
+December,Lightning,27
+December,Blizzard,1864
+December,Wildfire,39
+December,Heavy Rain,386
+December,Frost/Freeze,287
+December,Dense Fog,793
+December,High Wind,2840
+December,Rip Current,5
+December,Cold/Wind Chill,344
+December,Extreme Cold/Wind Chill,473
+December,Storm Surge/Tide,9
+December,Winter Storm,4921
+December,Drought,1931
+December,Debris Flow,11
+December,Coastal Flood,116
+December,Tornado,243
+December,Dust Storm,16
+December,Thunderstorm Wind,1351
+December,Marine Strong Wind,5
+December,Heavy Snow,3770
+December,Flash Flood,516
+December,Landslide,42
+December,Waterspout,24
+December,Astronomical Low Tide,61
+December,Ice Storm,1041
+December,Seiche,5
+December,Sleet,15
+December,Hail,256
+December,Funnel Cloud,30
+December,Strong Wind,1568
+December,Freezing Fog,56
+December,Avalanche,49
+December,Winter Weather,5708
+December,Lake-Effect Snow,284
+December,Marine Thunderstorm Wind,224
+December,Marine High Wind,4
+December,Frost/Freeze,173
+December,Strong Wind,979
+December,Marine Thunderstorm Wind,176
+December,Tornado,265
+December,Storm Surge/Tide,80
+December,Avalanche,32
+December,WINTER WEATHER,1231
+December,Freezing Fog,117
+December,High Wind,3630
+December,Wildfire,42
+December,Debris Flow,27
+December,Winter Storm,6013
+December,Hail,947
+December,Extreme Cold/Wind Chill,730
+December,Rip Current,10
+December,Dust Storm,5
+December,Heavy Snow,6343
+December,Lightning,50
+December,Blizzard,824
+December,Thunderstorm Wind,1128
+December,High Surf,441
+December,Flood,934
+December,Winter Weather,1363
+December,Dense Fog,872
+December,Heat,568
+December,Hurricane (Typhoon),9
+December,Ice Storm,1803
+December,Cold/Wind Chill,902
+December,Flash Flood,866
+December,Waterspout,32
+December,Marine High Wind,6
+December,Heavy Rain,458
+December,Drought,1162
+December,Coastal Flood,113
+December,Funnel Cloud,45
+December,Sleet,49
+December,Lake-Effect Snow,87
+February,Sleet,56
+February,Drought,1696
+February,Freezing Fog,17
+February,Waterspout,31
+February,Cold/Wind Chill,532
+February,High Wind,2927
+February,Blizzard,1245
+February,Lake-Effect Snow,193
+February,Landslide,9
+February,Coastal Flood,35
+February,Dense Fog,413
+February,Rip Current,7
+February,Frost/Freeze,229
+February,Tornado,509
+February,Flash Flood,388
+February,Astronomical Low Tide,116
+February,Heavy Rain,175
+February,Strong Wind,1008
+February,Ice Storm,774
+February,Thunderstorm Wind,2943
+February,Winter Weather,6175
+February,Marine High Wind,12
+February,High Surf,380
+February,Tsunami,8
+February,Lightning,91
+February,Extreme Cold/Wind Chill,1232
+February,Hail,1893
+February,Funnel Cloud,45
+February,Wildfire,153
+February,Marine Thunderstorm Wind,332
+February,Dust Storm,34
+February,Avalanche,48
+February,Flood,721
+February,Heavy Snow,4334
+February,Winter Storm,5957
+February,WINTER WEATHER,1697
+February,Heavy Snow,5452
+February,Ice Storm,926
+February,Flood,1768
+February,Marine Thunderstorm Wind,168
+February,High Wind,3836
+February,Rip Current,19
+February,Heavy Rain,568
+February,Blizzard,562
+February,Thunderstorm Wind,2717
+February,Dust Storm,56
+February,Lake-Effect Snow,27
+February,Storm Surge/Tide,64
+February,Coastal Flood,84
+February,Heat,501
+February,Lightning,112
+February,Hail,2203
+February,Frost/Freeze,99
+February,Avalanche,65
+February,High Surf,449
+February,Flash Flood,1365
+February,Cold/Wind Chill,1693
+February,Strong Wind,1102
+February,Waterspout,62
+February,Extreme Cold/Wind Chill,206
+February,Drought,848
+February,Winter Storm,6177
+February,Tornado,306
+February,Winter Weather,1342
+February,Excessive Heat,156
+February,Dense Fog,783
+February,Funnel Cloud,68
+February,Wildfire,81
+February,Debris Flow,27
+February,Sleet,100
+January,Winter Storm,4229
+January,Heavy Snow,4089
+January,Flood,816
+January,Flash Flood,797
+January,Avalanche,55
+January,Coastal Flood,33
+January,Freezing Fog,62
+January,Sleet,47
+January,Heavy Rain,210
+January,Drought,1843
+January,Cold/Wind Chill,1082
+January,Lake-Effect Snow,509
+January,Strong Wind,968
+January,Funnel Cloud,64
+January,Frost/Freeze,422
+January,Marine Thunderstorm Wind,282
+January,Wildfire,105
+January,Landslide,50
+January,Dense Smoke,4
+January,Extreme Cold/Wind Chill,1522
+January,Dense Fog,602
+January,Rip Current,8
+January,Debris Flow,6
+January,Waterspout,29
+January,Hail,683
+January,Marine High Wind,19
+January,Tropical Storm,4
+January,Seiche,9
+January,Tornado,362
+January,Thunderstorm Wind,2175
+January,Dust Storm,12
+January,High Wind,2757
+January,Winter Weather,7057
+January,Ice Storm,1074
+January,High Surf,435
+January,Blizzard,750
+January,Astronomical Low Tide,59
+January,Marine Strong Wind,6
+January,Lightning,41
+January,Dust Storm,5
+January,Tornado,509
+January,Frost/Freeze,313
+January,Avalanche,49
+January,Freezing Fog,13
+January,Wildfire,68
+January,Flash Flood,2000
+January,Excessive Heat,193
+January,Storm Surge/Tide,97
+January,Lake-Effect Snow,40
+January,Extreme Cold/Wind Chill,942
+January,Hurricane (Typhoon),8
+January,Hail,1617
+January,Strong Wind,725
+January,Rip Current,16
+January,Drought,691
+January,High Wind,3500
+January,Heavy Snow,8185
+January,Blizzard,1746
+January,Waterspout,48
+January,Heat,506
+January,Winter Storm,10226
+January,Marine Thunderstorm Wind,134
+January,Ice Storm,2529
+January,Funnel Cloud,75
+January,Cold/Wind Chill,3512
+January,Dense Fog,1131
+January,Sleet,166
+January,Lightning,107
+January,Thunderstorm Wind,2280
+January,Coastal Flood,115
+January,High Surf,477
+January,Flood,2352
+January,Heavy Rain,725
+January,Debris Flow,55
+January,WINTER WEATHER,1441
+January,Winter Weather,1902
+July,Excessive Heat,2480
+July,Heavy Rain,1318
+July,Dust Storm,52
+July,Dust Devil,10
+July,Drought,2625
+July,Debris Flow,16
+July,Tropical Depression,4
+July,Landslide,19
+July,Flash Flood,4910
+July,Dense Fog,62
+July,Marine Thunderstorm Wind,1800
+July,Hail,12735
+July,Heat,2346
+July,Wildfire,374
+July,Marine Hail,57
+July,Rip Current,93
+July,High Surf,118
+July,Lightning,1368
+July,Strong Wind,53
+July,Funnel Cloud,468
+July,Flood,1123
+July,Coastal Flood,5
+July,Cold/Wind Chill,4
+July,Tornado,681
+July,High Wind,153
+July,Thunderstorm Wind,23854
+July,Tropical Storm,31
+July,Waterspout,284
+July,Storm Surge/Tide,20
+July,High Wind,305
+July,Hail,17049
+July,Cold/Wind Chill,148
+July,Tropical Storm,315
+July,Debris Flow,24
+July,Flash Flood,5217
+July,Drought,1872
+July,Marine Thunderstorm Wind,1360
+July,Tornado,1477
+July,Hurricane (Typhoon),328
+July,Waterspout,456
+July,Rip Current,80
+July,Heavy Wind,4
+July,High Surf,110
+July,Wildfire,605
+July,Dense Fog,67
+July,Thunderstorm Wind,28861
+July,Strong Wind,114
+July,Dust Devil,13
+July,Extreme Cold/Wind Chill,12
+July,Marine Hail,58
+July,Funnel Cloud,614
+July,Flood,1529
+July,Volcanic Ash,30
+July,Dust Storm,49
+July,Heat,4341
+July,Storm Surge/Tide,39
+July,Lightning,2266
+July,Heavy Rain,803
+June,Frost/Freeze,144
+June,Lightning,1084
+June,Tornado,1510
+June,Waterspout,238
+June,Coastal Flood,174
+June,High Surf,166
+June,Storm Surge/Tide,29
+June,Excessive Heat,761
+June,Dense Fog,77
+June,Hail,23251
+June,Marine High Wind,8
+June,Drought,2060
+June,Tropical Storm,115
+June,Heavy Snow,38
+June,Rip Current,62
+June,Thunderstorm Wind,29532
+June,Tsunami,5
+June,Winter Storm,6
+June,Marine Thunderstorm Wind,2107
+June,Strong Wind,156
+June,High Wind,837
+June,Lakeshore Flood,10
+June,Dust Storm,42
+June,Flood,2050
+June,Landslide,20
+June,Winter Weather,33
+June,Marine Strong Wind,6
+June,Dust Devil,11
+June,Funnel Cloud,754
+June,Marine Hail,91
+June,Wildfire,299
+June,Flash Flood,4390
+June,Heavy Rain,1084
+June,Heat,1117
+June,Lightning,1942
+June,Heat,856
+June,Debris Flow,11
+June,Cold/Wind Chill,226
+June,WINTER WEATHER,4
+June,Dust Storm,35
+June,Rip Current,56
+June,High Surf,142
+June,High Wind,491
+June,Extreme Cold/Wind Chill,163
+June,Frost/Freeze,30
+June,Winter Storm,12
+June,Tropical Storm,323
+June,Tornado,2581
+June,Strong Wind,198
+June,Heavy Snow,94
+June,Wildfire,249
+June,Thunderstorm Wind,27991
+June,Dense Fog,49
+June,Waterspout,340
+June,Funnel Cloud,781
+June,Storm Surge/Tide,36
+June,Drought,1307
+June,Coastal Flood,17
+June,Flash Flood,6494
+June,Marine Hail,69
+June,Flood,2741
+June,Heavy Rain,669
+June,Hail,26931
+June,Dust Devil,14
+June,Marine Thunderstorm Wind,946
+March,Thunderstorm Wind,3497
+March,Coastal Flood,121
+March,Marine High Wind,11
+March,Lightning,144
+March,Strong Wind,775
+March,Hail,7528
+March,Marine Strong Wind,7
+March,Heavy Rain,376
+March,Dense Fog,425
+March,Ice Storm,113
+March,Lakeshore Flood,4
+March,Extreme Cold/Wind Chill,146
+March,Cold/Wind Chill,66
+March,Avalanche,27
+March,Heat,58
+March,Marine Hail,21
+March,Tsunami,13
+March,Flash Flood,1329
+March,High Wind,2085
+March,High Surf,400
+March,Drought,1798
+March,Blizzard,892
+March,Astronomical Low Tide,41
+March,Heavy Snow,2310
+March,Flood,2418
+March,Tornado,811
+March,Winter Weather,2427
+March,Rip Current,20
+March,Frost/Freeze,138
+March,Funnel Cloud,186
+March,Winter Storm,3026
+March,Dust Devil,4
+March,Wildfire,265
+March,Waterspout,38
+March,Dust Storm,22
+March,Marine Thunderstorm Wind,430
+March,Lake-Effect Snow,38
+March,Sleet,16
+March,Landslide,46
+March,Cold/Wind Chill,525
+March,Winter Storm,4826
+March,Heavy Snow,5323
+March,Blizzard,789
+March,WINTER WEATHER,575
+March,Drought,918
+March,Tornado,930
+March,Flood,2231
+March,Wildfire,179
+March,Dense Fog,349
+March,Marine Hail,5
+March,Hail,9419
+March,Marine Thunderstorm Wind,291
+March,High Wind,4035
+March,Astronomical Low Tide,5
+March,Volcanic Ash,11
+March,Sleet,53
+March,Frost/Freeze,117
+March,Dust Devil,4
+March,Funnel Cloud,191
+March,Coastal Flood,57
+March,Ice Storm,372
+March,Avalanche,65
+March,Lightning,232
+March,Extreme Cold/Wind Chill,111
+March,Waterspout,83
+March,Heat,476
+March,Rip Current,27
+March,Strong Wind,1249
+March,Dust Storm,17
+March,Flash Flood,1759
+March,Thunderstorm Wind,5072
+March,Debris Flow,10
+March,Excessive Heat,120
+March,Lake-Effect Snow,8
+March,Storm Surge/Tide,52
+March,High Surf,252
+March,Winter Weather,776
+March,Heavy Rain,706
+May,Hail,20757
+May,High Surf,74
+May,Blizzard,27
+May,Cold/Wind Chill,61
+May,Winter Weather,177
+May,Coastal Flood,56
+May,Lakeshore Flood,10
+May,Marine Thunderstorm Wind,789
+May,Heavy Snow,202
+May,Tropical Depression,10
+May,Lightning,523
+May,High Wind,1497
+May,Marine High Wind,13
+May,Flash Flood,3644
+May,Waterspout,124
+May,Thunderstorm Wind,13547
+May,Winter Storm,190
+May,Frost/Freeze,515
+May,Landslide,45
+May,Heat,62
+May,Dust Storm,44
+May,Marine Hail,44
+May,Astronomical Low Tide,7
+May,Marine Strong Wind,8
+May,Tropical Storm,48
+May,Excessive Heat,7
+May,Heavy Rain,708
+May,Strong Wind,461
+May,Seiche,6
+May,Dust Devil,21
+May,Debris Flow,8
+May,Funnel Cloud,437
+May,Tornado,2205
+May,Dense Fog,205
+May,Drought,1811
+May,Wildfire,178
+May,Flood,2325
+May,Rip Current,61
+May,Dense Fog,139
+May,Winter Storm,175
+May,Storm Surge/Tide,44
+May,Waterspout,228
+May,Heat,307
+May,High Wind,1236
+May,Winter Weather,31
+May,Avalanche,6
+May,Rip Current,49
+May,Tornado,3361
+May,Blizzard,9
+May,High Surf,116
+May,Flood,2888
+May,Hail,33879
+May,Debris Flow,64
+May,Lightning,1212
+May,Cold/Wind Chill,399
+May,Strong Wind,297
+May,Marine Thunderstorm Wind,741
+May,Ice Storm,5
+May,Frost/Freeze,368
+May,Dust Storm,29
+May,Coastal Flood,19
+May,Marine Hail,30
+May,WINTER WEATHER,22
+May,Drought,1328
+May,Heavy Snow,312
+May,Flash Flood,4476
+May,Funnel Cloud,713
+May,Volcanic Ash,6
+May,Heavy Rain,735
+May,Excessive Heat,97
+May,Extreme Cold/Wind Chill,101
+May,Thunderstorm Wind,21370
+May,Wildfire,208
+May,Dust Devil,16
+November,Winter Storm,720
+November,Thunderstorm Wind,754
+November,Marine Thunderstorm Wind,142
+November,Marine High Wind,12
+November,Lightning,28
+November,Waterspout,31
+November,Extreme Cold/Wind Chill,26
+November,Wildfire,66
+November,Tropical Storm,122
+November,Tornado,157
+November,Marine Strong Wind,12
+November,Dense Fog,641
+November,Avalanche,4
+November,Coastal Flood,102
+November,Storm Surge/Tide,6
+November,Rip Current,8
+November,Winter Weather,1076
+November,Dust Storm,7
+November,High Surf,269
+November,Hail,554
+November,Landslide,7
+November,Flash Flood,212
+November,Tropical Depression,40
+November,Heavy Rain,250
+November,Ice Storm,20
+November,Debris Flow,4
+November,Drought,2180
+November,Heavy Snow,832
+November,Funnel Cloud,21
+November,Flood,275
+November,Frost/Freeze,223
+November,Cold/Wind Chill,9
+November,High Wind,1521
+November,Heat,12
+November,Blizzard,204
+November,Lake-Effect Snow,124
+November,Strong Wind,424
+November,Winter Storm,2177
+November,Debris Flow,49
+November,Tropical Storm,24
+November,Flood,865
+November,Storm Surge/Tide,49
+November,Flash Flood,1365
+November,Drought,1152
+November,Hail,1403
+November,Blizzard,415
+November,Marine Thunderstorm Wind,269
+November,Dust Storm,12
+November,Heavy Rain,419
+November,Cold/Wind Chill,130
+November,Coastal Flood,40
+November,Avalanche,10
+November,Ice Storm,393
+November,High Surf,291
+November,High Wind,3720
+November,Hurricane (Typhoon),22
+November,Northern Lights,8
+November,Heat,322
+November,Frost/Freeze,119
+November,Tornado,840
+November,Lake-Effect Snow,32
+November,Thunderstorm Wind,3532
+November,Dense Fog,447
+November,Winter Weather,375
+November,Heavy Snow,2369
+November,WINTER WEATHER,357
+November,Waterspout,62
+November,Rip Current,13
+November,Lightning,79
+November,Wildfire,116
+November,Funnel Cloud,85
+November,Extreme Cold/Wind Chill,86
+November,Strong Wind,911
+November,Seiche,7
+October,Marine Hail,5
+October,Hail,1569
+October,Landslide,36
+October,Dust Storm,35
+October,Lake-Effect Snow,7
+October,Marine Thunderstorm Wind,366
+October,Winter Weather,505
+October,Tornado,446
+October,Winter Storm,538
+October,Waterspout,124
+October,Marine Tropical Storm,6
+October,Excessive Heat,4
+October,Wildfire,117
+October,High Surf,197
+October,Coastal Flood,204
+October,Strong Wind,607
+October,High Wind,2318
+October,Tropical Storm,47
+October,Marine High Wind,71
+October,Thunderstorm Wind,2845
+October,Tropical Depression,8
+October,Cold/Wind Chill,50
+October,Avalanche,4
+October,Dense Fog,277
+October,Drought,2765
+October,Heavy Rain,495
+October,Flash Flood,953
+October,Flood,644
+October,Rip Current,16
+October,Blizzard,114
+October,Storm Surge/Tide,27
+October,Frost/Freeze,1109
+October,Heavy Snow,566
+October,Funnel Cloud,87
+October,Marine Strong Wind,8
+October,Lightning,108
+October,Coastal Flood,59
+October,Thunderstorm Wind,2971
+October,Blizzard,183
+October,WINTER WEATHER,100
+October,Lightning,185
+October,Hail,2572
+October,High Surf,236
+October,Marine Thunderstorm Wind,285
+October,Heavy Snow,708
+October,Wildfire,138
+October,Winter Storm,485
+October,Strong Wind,469
+October,Flash Flood,1680
+October,Tropical Storm,240
+October,Drought,1406
+October,Extreme Cold/Wind Chill,336
+October,Storm Surge/Tide,109
+October,Tornado,706
+October,Hurricane (Typhoon),126
+October,Debris Flow,16
+October,Rip Current,30
+October,Ice Storm,33
+October,High Wind,2236
+October,Heat,36
+October,Dust Storm,18
+October,Frost/Freeze,457
+October,Waterspout,141
+October,Winter Weather,91
+October,Funnel Cloud,145
+October,Dense Fog,252
+October,Cold/Wind Chill,199
+October,Flood,1036
+October,Heavy Rain,612
+October,Marine Hail,6
+September,Thunderstorm Wind,11208
+September,Dust Storm,58
+September,Cold/Wind Chill,137
+September,Waterspout,551
+September,Drought,5169
+September,High Surf,444
+September,Landslide,19
+September,Lightning,902
+September,Astronomical Low Tide,5
+September,Marine High Wind,29
+September,Rip Current,104
+September,Frost/Freeze,284
+September,Heavy Snow,126
+September,Extreme Cold/Wind Chill,209
+September,Hurricane (Typhoon),838
+September,Excessive Heat,220
+September,Coastal Flood,115
+September,Marine Hail,28
+September,Wildfire,573
+September,Dense Fog,392
+September,Tornado,1474
+September,Debris Flow,41
+September,Tropical Storm,1715
+September,Flash Flood,6313
+September,Tropical Depression,86
+September,Hail,8808
+September,Funnel Cloud,449
+September,Winter Weather,38
+September,Strong Wind,858
+September,Volcanic Ash,12
+September,High Wind,2291
+September,Flood,2630
+September,Storm Surge/Tide,304
+September,Heavy Rain,1711
+September,WINTER WEATHER,27
+September,Marine Thunderstorm Wind,1130
+September,Winter Storm,52
+September,Dust Devil,8
+September,Heat,542

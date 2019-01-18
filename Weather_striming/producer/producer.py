@@ -51,7 +51,7 @@ if __name__ == "__main__":
                     for index, row in ending_df.iterrows():
                         row['BEGINNING']='False'
                         json_row = row.to_json()
-                        # print json_row, "=================================="
+                        print json_row, "=================================="
                         producer.send(TOPIC, value=json_row, key= str(row['EPISODE_ID']) )
                     time.sleep(3) 
 
